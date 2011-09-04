@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:uml2tools.notation="http://www.eclipse.org/mdt/uml2tools/gmf/notation/ext/2008" xmi:id="_V8p8wYyCEeCPTvKOhB_KZA" type="UMLUseCase" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_V8ztwIyCEeCPTvKOhB_KZA" type="2001" fontName="Sans Serif">
+    <children xmi:type="notation:DecorationNode" xmi:id="_V80U0IyCEeCPTvKOhB_KZA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_V80U0YyCEeCPTvKOhB_KZA" type="5016"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_V80U0oyCEeCPTvKOhB_KZA" type="7001" collapsed="true">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_V80U04yCEeCPTvKOhB_KZA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_V80U1IyCEeCPTvKOhB_KZA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_V80U1YyCEeCPTvKOhB_KZA"/>
+    </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_V80U1oyCEeCPTvKOhB_KZA"/>
+    <element xmi:type="uml:Model" href="ADreamZone.uml#_eyTJgToJEeCGgYjWyfQ7UA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V8ztwYyCEeCPTvKOhB_KZA"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XeEsMIyCEeCPTvKOhB_KZA" type="2002" fontName="Sans Serif">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XeFTQIyCEeCPTvKOhB_KZA" type="5002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XeFTQYyCEeCPTvKOhB_KZA" y="5"/>
+    </children>
+    <element xmi:type="uml:Actor" href="ADreamZone.uml#_XdfdYIyCEeCPTvKOhB_KZA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XeEsMYyCEeCPTvKOhB_KZA" x="435" y="248"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ZgoZ0IyCEeCPTvKOhB_KZA" type="2003" fontName="Sans Serif">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZgoZ0oyCEeCPTvKOhB_KZA" type="5003">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Zgw8sIyCEeCPTvKOhB_KZA" bold="true"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZgpA4IyCEeCPTvKOhB_KZA" type="7002">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ZgpA4YyCEeCPTvKOhB_KZA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZgpA4oyCEeCPTvKOhB_KZA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZgpA44yCEeCPTvKOhB_KZA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_ZgpA5IyCEeCPTvKOhB_KZA"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="ADreamZone.uml#_ZgWF8IyCEeCPTvKOhB_KZA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZgoZ0YyCEeCPTvKOhB_KZA" x="170" y="115"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_V8p8woyCEeCPTvKOhB_KZA"/>
+  <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_V8p8w4yCEeCPTvKOhB_KZA"/>
+  <element xmi:type="uml:Model" href="ADreamZone.uml#_eyTJgToJEeCGgYjWyfQ7UA"/>
+  <edges xmi:type="notation:Edge" xmi:id="_fwLsUIyCEeCPTvKOhB_KZA" type="4004" source="_ZgoZ0IyCEeCPTvKOhB_KZA" target="_XeEsMIyCEeCPTvKOhB_KZA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fwMTYIyCEeCPTvKOhB_KZA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fwMTYYyCEeCPTvKOhB_KZA" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fwMTYoyCEeCPTvKOhB_KZA" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fwMTY4yCEeCPTvKOhB_KZA" y="15"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_fwLsUYyCEeCPTvKOhB_KZA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fwLsUoyCEeCPTvKOhB_KZA" fontName="Sans Serif"/>
+    <element xmi:type="uml:Association" href="ADreamZone.uml#_fwEXkIyCEeCPTvKOhB_KZA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fwLsU4yCEeCPTvKOhB_KZA" points="[-70, -1, -265, -104]$[195, 103, 0, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fweAMIyCEeCPTvKOhB_KZA" id="(0.0,0.0)"/>
+  </edges>
+</notation:Diagram>
