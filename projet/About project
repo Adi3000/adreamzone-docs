@@ -1,0 +1,76 @@
+Don't Forget rules : 
+
+- Your limitation draw will be limited to 100 pics
+- Your free to user other user pics. They'll earn some Xp
+
+Purpose :
+
+- Users can upload and set in a empty world their diverses creation (creatures, buildings, ...) and they may be animated with
+some emote sprite, or diverse poses uploaded linked to their sprite
+- User can  show their multiple creation and non graphists users can make an full ecosystem with their creation
+- Managing a new eco-system with our own Dreamed Element 
+
+Components associated :
+
+* A realm editor : 
+- User can have one or more realm to manage (according to its experience gain). 
+- The world editor is a full application which allow user to browse some sprite and DreamedElements owned by him or earned, or public.
+- It should be easy to create a new realm : editor must be used with mouse and get a OpenGL/Slick interface to chose objects
+- GUI must be connected throught internet to see what DreamedElement he could use and its statistics
+- A "one touch button" may be set to switch on open world and editor world
+- The editor is off the activities which could happen during editing a new wolrd (except new DreamedElement uploaded, and players stats)
+All DreamedElement will be paused and only shown as they may be, but no interaction with DreamedElement should be possible
+- After set a world an user can set it world as private to be viewable only by him but all experience earned cannot be counted (or 
+will not be displayed and effective) 
+
+* The game itself :
+- An interface to interact with animated and non-paused DreamedElement.
+- Player can control one of its DreamedElement Actor with keybord on 3 to 6 deep level and on left and right.
+- Player can switch from one to another creature only he own it.
+- Other creature will do a routine managed by their profile.
+- User can attack or interact with other creature only he controls it
+- User can walk through others realms to earn experience or DreamedElements for :
+	Attacks other realms or creature
+	Talk and sell some stuff.
+	
+* The engine :
+- Each realm is limited, on each edge we reach another realm.
+- Two consecutive realms cannot be own by the same user, beetwin two user realm, there is a hunting field where production stuff could emerge
+- Each actor had a profil :
+	* Hunter : mobile unit which is more available to escort carrier out, and hunt for some food in other realm
+	* Predators : Attacks and defender of the realm and people inside with some big defense and attack inside their realm
+	* Procreator : Citizen bringin influence point by procreating and eating
+	* Carrier in: Side by sid with hunter, bring some food and other stuf for Citizen  
+	* Carrier out : Explore other realms to expend influence of the realm (creating some teleport point and portal on other realms)
+- Influence point can bring more or less cell to expend a realm
+- Productivity can bring up influence point and are created by setting up some relationship, or make procreator procreating more and more
+- Building something new need some influence point
+- Interaction with element is the same in non owned realm and owned-by-user realm
+- Creatures follow a food chain on each others in the same realm, or outside.
+
+* Character/Building editor:
+- This application must provide some feature to design : 
+	- Animation edition for characters
+	- Annotation on building (author, description)
+	- Caracteristics beside their profile (actor profil, food chain)
+	(- Type of move)
+	- Emotes actions
+	- Attack
+- For building, we must be able to design interaction which could be maid with it like :
+	- Food seller (only an inventory without any body in their to maintain it)
+	- Respawn spot (for new born or from death respawn)
+	- Sleep room
+	- Little user window shop customizable 
+
+
+Editor passing :
+- Controls : use mouse and QD to move some objects.
+- Cannot zoom more than a certain scale
+- Click on one object select it and give us liberty to drag and drop while not get another click
+- When using Editor mode World is closed/paused/basic animated and all could be  uploaded on user side
+- Editor can permit to add some building and some respawn point. 
+- No need to get the Editor mode to load another DreamedElement Actor for replace
+- Editor is just for placing some element. Editor for new DreamedElement (building/actors...) must be on another GUI which
+let user playing while he make something new
+- Think about an AJAX placement for quick moving
+- All sprite will be in a square, no round or disform frame. All sprites will use more or less square cells  
